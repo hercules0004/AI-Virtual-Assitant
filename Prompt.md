@@ -23,7 +23,7 @@ Your task is to design and implement a web application that presents information
 
 ## UI and Animation Requirements
 
-# Scroll-Based Experience:
+#  Scroll-Based Experience:
 
 1-Implement animations that respond to scrolling behavior
 
