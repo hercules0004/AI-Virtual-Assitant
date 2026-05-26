@@ -38,7 +38,7 @@ Your task is to design and implement a web application that presents information
 
 
 
-# Section Flow
+#Section Flow
 
 The interface must guide users through:
 
