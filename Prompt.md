@@ -138,8 +138,8 @@ Each model must include:
 
 4-Ensure readability and clarity
 
-## Contact System Requirements
 
+## Contact System Requirements
 
 # Modal Interaction
 
@@ -150,7 +150,7 @@ Each model must include:
   Include smooth open and close animations
   
              
-#Form Fields
+# Form Fields
 
 The form must include:
 
