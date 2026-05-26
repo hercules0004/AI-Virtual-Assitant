@@ -30,6 +30,7 @@ Your task is to design and implement a web application that presents information
 2-Ensure content appears progressively as users navigate
 
 3-Use motion effects such as:
+
   a-Fade-in transitions
                     
   b-Sequential element appearance
@@ -89,6 +90,7 @@ The website must include:
 
 
 #Model Details Section:
+
 
 Each model must include:
 
