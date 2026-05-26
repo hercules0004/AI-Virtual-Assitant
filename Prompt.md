@@ -36,6 +36,8 @@ Your task is to design and implement a web application that presents information
   
   c-Layered movement effects
 
+
+
 #Section Flow
 
 The interface must guide users through:
@@ -51,6 +53,8 @@ The interface must guide users through:
 5-Contact section
 
 Each section should transition smoothly to maintain continuity.
+
+
 
 #Animation Guidelines:
 
@@ -82,6 +86,8 @@ The website must include:
 
 2-Each model should be represented as a card
 
+
+
 #Model Details Section:
 
 Each model must include:
@@ -94,17 +100,23 @@ Each model must include:
 
 4-Approximate release period
 
+
+
 #Timeline Section:
 
 1-Show progression of models over time
 
 2-Organize models in chronological or grouped format
 
+
+
 #Contact Section:
 
 1-Include a “Get in Touch” button
 
 2-Provide access to a contact form
+
+
 
 #Footer (Important Addition)
 
@@ -113,6 +125,8 @@ Each model must include:
   "© Harshit Kumar — All rights reserved"
   
   Optional: "AI Models Showcase Project"
+
+  
           
 #Layout Constraints
 
@@ -126,6 +140,7 @@ Each model must include:
 
 ## Contact System Requirements
 
+
 # Modal Interaction
 
 1-Clicking the “Get in Touch” button must:
@@ -133,6 +148,7 @@ Each model must include:
   Open a modal form
    
   Include smooth open and close animations
+  
              
 #Form Fields
 
@@ -145,6 +161,7 @@ The form must include:
 3-Phone Number (required, validated)
 
 4-Message (optional)
+
 
 #Validation Rules
 
@@ -166,17 +183,25 @@ The form must include:
                 *Server logs
                 *Optional database
                 
+                
 #Email Notification:
 
 1-Send a notification containing:
-          *Name
-          *Email
-          *Phone number
-          *Message
-          *Timestamp
-          *Include line: "Submission received via Harshit Kumar's AI Models Showcase website"
+         
+  *Name
+          
+  *Email
+          
+  *Phone number
+        
+  *Message
+          
+  *Timestamp
+        
+  *Include line: "Submission received via Harshit Kumar's AI Models Showcase website"
           
 2-Use an email service such as SMTP or API-based solution
+
 
 #Security Requirements:
 
@@ -189,10 +214,13 @@ The form must include:
 1-Sanitize all inputs before processing
 
 2-Prevent:
-       Cross-site scripting
-       Injection attacks
+
+  Cross-site scripting
+       
+   Injection attacks
        
 3-Validate required fields properly
+
 
 #API Response Format
 
