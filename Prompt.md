@@ -1,1 +1,178 @@
-🧠 Context and RoleYou are a frontend focused full-stack developer responsible for building modern, interactive web applications. Your expertise lies in creating visually engaging interfaces combined with efficient backend systems for handling structured data.Your task is to design and implement a web application that presents information about multiple artificial intelligence models in a structured and visually appealing way. The system should guide users through different models their background , and their purpose using motion and smooth transitions.Additionally , the application must clearly reflect that it is designed and owned by Harshit Kumar, and this attribution should be visible in appropriate sections of the interface.You must ensure that the application remains responsive, accessible, and suitable for real-world usage while maintaining clean and maintainable code.🎯 ObjectiveDevelop a complete full-stack website that:Displays information about multiple AI models in a structured formatPresents model details such as purpose, category, and timelineUses scroll-based animations to create a smooth content flowProvides a modern, responsive interface with transitionsIncludes a contact mechanism that allows users to submit queriesStores user submissions securelySends an email notification with submitted detailsClearly shows Harshit Kumar as the designer/owner of the website🎬 UI and Animation RequirementsScroll-Based ExperienceImplement animations that respond to scrolling behaviorEnsure content appears progressively as users navigateUse motion effects such as:Fade-in transitionsSequential element appearanceLayered movement effectsSection FlowThe interface must guide users through:Introduction sectionAI models overview sectionIndividual model details sectionTimeline or progression sectionContact sectionEach section should transition smoothly to maintain continuity.Animation GuidelinesUse efficient rendering properties such as transform and opacityAvoid heavy operations that affect performanceEnsure animations are smooth and consistentDo not block scrolling or interaction🎨 Layout RequirementsThe website must include:Introduction SectionBrief explanation of the purpose of the websiteAnimated heading or entry contentA subtle line such as:"Designed and developed by Harshit Kumar"AI Models Overview SectionDisplay multiple AI models in a grid or listEach model should be represented as a cardModel Details SectionEach model must include:Model nameShort descriptionPrimary use caseApproximate release periodTimeline SectionShow progression of models over timeOrganize models in chronological or grouped formatContact SectionInclude a “Get in Touch” buttonProvide access to a contact formFooter (Important Addition)Must include:"© Harshit Kumar — All rights reserved"Optional: "AI Models Showcase Project"Layout ConstraintsMust be responsive across devicesUse proper semantic HTMLMaintain consistent spacing and structureEnsure readability and clarity📩 Contact System RequirementsModal InteractionClicking the “Get in Touch” button must:Open a modal formInclude smooth open and close animationsForm FieldsThe form must include:Name (required)Email (required, validated)Phone Number (required, validated)Message (optional)Validation RulesRequired fields must be filledEmail format must be validErrors must be displayed clearlySubmission must be prevented if validation fails⚙️ Backend RequirementsCreate an API endpoint to handle form submissionsProcess and validate incoming dataStore submissions in:Server logsOptional databaseEmail NotificationSend a notification containing:NameEmailPhone numberMessageTimestampInclude line: "Submission received via Harshit Kumar's AI Models Showcase website"Use an email service such as SMTP or API-based solutionSecurity RequirementsUse environment variables for sensitive dataImplement basic protection against repeated submissions🔐 Data Processing RequirementsSanitize all inputs before processingPrevent:Cross-site scriptingInjection attacksValidate required fields properlyAPI Response FormatSuccessful response:{  "success": true,  "message": "Submission successful"}Error response:{  "success": false,  "error": "Invalid data"}📤 Output RequirementsThe final system must include:A website displaying multiple AI modelsStructured model informationAnimated transitions between sectionsFunctional modal contact formEmail notification after submissionConfirmation message for usersProper handling of failure casesClear attribution to Harshit Kumar as designer/owner❗ Error Handling and DocumentationError HandlingShow validation errors on the frontendPrevent invalid submissionsHandle backend errors properlyReturn structured responsesLog errors for debuggingDocumentationProvide:Project structureSetup instructionsEnvironment configurationDeployment steps⚡ Performance and ScalabilityOptimize loading and renderingLoad components when requiredEnsure smooth animations across devicesHandle multiple requests efficientlyAccessibilityUse semantic HTMLEnsure keyboard navigationMaintain compatibility across browsers🧱 Technology StackFrontendReact or Next.jsFramer MotionTailwind CSS or similarBackendNode.js with Express or API routesEmail handling servicedotenv for configurationOptionalMongoDB or PostgreSQL
+## Context and Role
+You are a frontend focused full-stack developer responsible for building modern, interactive web applications. Your expertise lies in creating visually engaging interfaces combined with efficient backend systems for handling structured data.
+Your task is to design and implement a web application that presents information about multiple artificial intelligence models in a structured and visually appealing way. The system should guide users through different models their background , and their purpose using motion and smooth transitions.Additionally , the application must clearly reflect that it is designed and owned by Harshit Kumar, and this attribution should be visible in appropriate sections of the interface.You must ensure that the application remains responsive, accessible, and suitable for real-world usage while maintaining clean and maintainable code.
+
+## Objective
+Develop a complete full-stack website that:
+1-Displays information about multiple AI models in a structured format
+2-Presents model details such as purpose, category, and timeline
+3-Uses scroll-based animations to create a smooth content flow
+4-Provides a modern, responsive interface with transitions
+5-Includes a contact mechanism that allows users to submit queries
+6-Stores user submissions securely
+7-Sends an email notification with submitted details
+8-Clearly shows Harshit Kumar as the designer/owner of the website
+
+## UI and Animation Requirements
+
+Scroll-Based Experience:
+1-Implement animations that respond to scrolling behavior
+2-Ensure content appears progressively as users navigate
+3-Use motion effects such as:
+                    a-Fade-in transitions
+                    b-Sequential element appearance
+                    c-Layered movement effects
+
+Section Flow
+The interface must guide users through:
+1-Introduction section
+2-AI models overview section
+3-Individual model details section
+4-Timeline or progression section
+5-Contact section
+Each section should transition smoothly to maintain continuity.
+
+Animation Guidelines:
+1-Use efficient rendering properties such as transform and opacity
+2-Avoid heavy operations that affect performance
+3-Ensure animations are smooth and consistent
+4-Do not block scrolling or interaction
+
+## Layout Requirements
+The website must include:
+Introduction Section
+1-Brief explanation of the purpose of the website
+2-Animated heading or entry content
+3-A subtle line such as:
+        "Designed and developed by Harshit Kumar"
+
+AI Models Overview Section:
+1-Display multiple AI models in a grid or list
+2-Each model should be represented as a card
+
+Model Details Section:
+Each model must include:
+1-Model name
+2-Short description
+3-Primary use case
+4-Approximate release period
+
+Timeline Section:
+1-Show progression of models over time
+2-Organize models in chronological or grouped format
+
+Contact Section:
+1-Include a “Get in Touch” button
+2-Provide access to a contact form
+
+Footer (Important Addition)
+1-Must include:
+          "© Harshit Kumar — All rights reserved"
+          Optional: "AI Models Showcase Project"
+          
+Layout Constraints
+1-Must be responsive across devices
+2-Use proper semantic HTML
+3-Maintain consistent spacing and structure
+4-Ensure readability and clarity
+
+📩 Contact System Requirements
+Modal Interaction 
+1-Clicking the “Get in Touch” button must:
+             Open a modal form
+             Include smooth open and close animations
+             
+Form Fields
+The form must include:
+1-Name (required)
+2-Email (required, validated)
+3-Phone Number (required, validated)
+4-Message (optional)
+
+Validation Rules
+1-Required fields must be filled
+2-Email format must be valid
+3-Errors must be displayed clearly
+4-Submission must be prevented if validation fails
+
+##Backend Requirements
+1-Create an API endpoint to handle form submissions
+2-Process and validate incoming data
+3-Store submissions in:
+                *Server logs
+                *Optional database
+                
+Email Notification:
+1-Send a notification containing:
+          *Name
+          *Email
+          *Phone number
+          *Message
+          *Timestamp
+          *Include line: "Submission received via Harshit Kumar's AI Models Showcase website"
+2-Use an email service such as SMTP or API-based solution
+
+Security Requirements:
+1-Use environment variables for sensitive data
+2-Implement basic protection against repeated submissions
+
+##Data Processing Requirements
+1-Sanitize all inputs before processing
+2-Prevent:
+       Cross-site scripting
+       Injection attacks
+3-Validate required fields properly
+
+#API Response Format
+Successful response:
+             {  "success": true,  "message": "Submission successful"}
+
+Error response:
+             {  "success": false,  "error": "Invalid data"}
+
+## Output Requirements
+1-The final system must include:
+            *A website displaying multiple AI models
+            *Structured model information
+            *Animated transitions between sections
+            *Functional modal contact form
+            *Email notification after submission
+            *Confirmation message for users
+            *Proper handling of failure cases
+            *Clear attribution to Harshit Kumar as designer/owner
+
+## Error Handling and Documentation
+Error Handling:
+Show validation errors on the frontend
+Prevent invalid submissions
+Handle backend errors properly
+Return structured responses
+Log errors for debugging
+
+DocumentationProvide:
+Project structure
+Setup instructions
+Environment configuration
+Deployment steps
+
+## Performance and Scalability
+Optimize loading and rendering
+Load components when required
+Ensure smooth animations across devices
+Handle multiple requests efficiently
+
+Accessibility
+Use semantic HTML
+Ensure keyboard navigation
+Maintain compatibility across browsers
+
+## Technology Stack
+1-FrontendReact or Next.js
+2-Framer Motion
+3-Tailwind CSS or similar
+
+Backend
+1-Node.js with Express or API routes
+2-Email handling service
+3-dotenv for configuration
+4-OptionalMongoDB or PostgreSQL
