@@ -21,9 +21,9 @@ Your task is to design and implement a web application that presents information
 
 8-Clearly shows Harshit Kumar as the designer/owner of the website
 
-## UI and Animation Requirements
+##  UI and Animation Requirements
 
-#  Scroll-Based Experience:
+#Scroll-Based Experience:
 
 1-Implement animations that respond to scrolling behavior
 
