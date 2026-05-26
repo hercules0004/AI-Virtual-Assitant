@@ -205,14 +205,22 @@ Error response:
 ## Output Requirements
 
 1-The final system must include:
-            *A website displaying multiple AI models
-            *Structured model information
-            *Animated transitions between sections
-            *Functional modal contact form
-            *Email notification after submission
-            *Confirmation message for users
-            *Proper handling of failure cases
-            *Clear attribution to Harshit Kumar as designer/owner
+
+  *A website displaying multiple AI models
+  
+  *Structured model information
+          
+  *Animated transitions between sections
+           
+  *Functional modal contact form
+
+  *Email notification after submission
+  
+   *Confirmation message for users
+  
+   *Proper handling of failure cases
+    
+  *Clear attribution to Harshit Kumar as designer/owner
 
 ## Error Handling and Documentation
 
