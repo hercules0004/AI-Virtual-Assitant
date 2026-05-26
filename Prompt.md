@@ -4,6 +4,7 @@ Your task is to design and implement a web application that presents information
 
 ## Objective
 Develop a complete full-stack website that:
+
 1-Displays information about multiple AI models in a structured format
 2-Presents model details such as purpose, category, and timeline
 3-Uses scroll-based animations to create a smooth content flow
@@ -16,6 +17,7 @@ Develop a complete full-stack website that:
 ## UI and Animation Requirements
 
 Scroll-Based Experience:
+
 1-Implement animations that respond to scrolling behavior
 2-Ensure content appears progressively as users navigate
 3-Use motion effects such as:
@@ -25,6 +27,7 @@ Scroll-Based Experience:
 
 Section Flow
 The interface must guide users through:
+
 1-Introduction section
 2-AI models overview section
 3-Individual model details section
