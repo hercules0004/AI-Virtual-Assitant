@@ -6,12 +6,19 @@ Your task is to design and implement a web application that presents information
 Develop a complete full-stack website that:
 
 1-Displays information about multiple AI models in a structured format
+
 2-Presents model details such as purpose, category, and timeline
+
 3-Uses scroll-based animations to create a smooth content flow
+
 4-Provides a modern, responsive interface with transitions
+
 5-Includes a contact mechanism that allows users to submit queries
+
 6-Stores user submissions securely
+
 7-Sends an email notification with submitted details
+
 8-Clearly shows Harshit Kumar as the designer/owner of the website
 
 ## UI and Animation Requirements
@@ -19,38 +26,60 @@ Develop a complete full-stack website that:
 Scroll-Based Experience:
 
 1-Implement animations that respond to scrolling behavior
+
 2-Ensure content appears progressively as users navigate
+
 3-Use motion effects such as:
-                    a-Fade-in transitions
-                    b-Sequential element appearance
-                    c-Layered movement effects
+  a-Fade-in transitions
+                    
+  b-Sequential element appearance
+  
+  c-Layered movement effects
 
 Section Flow
+
 The interface must guide users through:
 
 1-Introduction section
+
 2-AI models overview section
+
 3-Individual model details section
+
 4-Timeline or progression section
+
 5-Contact section
+
 Each section should transition smoothly to maintain continuity.
 
 Animation Guidelines:
+
 1-Use efficient rendering properties such as transform and opacity
+
 2-Avoid heavy operations that affect performance
+
 3-Ensure animations are smooth and consistent
+
 4-Do not block scrolling or interaction
 
 ## Layout Requirements
+
 The website must include:
+
 Introduction Section
+
 1-Brief explanation of the purpose of the website
+
 2-Animated heading or entry content
+
 3-A subtle line such as:
-        "Designed and developed by Harshit Kumar"
+
+   "Designed and developed by Harshit Kumar"
 
 AI Models Overview Section:
+
 1-Display multiple AI models in a grid or list
+
 2-Each model should be represented as a card
 
 Model Details Section:
