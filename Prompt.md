@@ -3,7 +3,7 @@ You are a frontend focused full-stack developer responsible for building modern,
 Your task is to design and implement a web application that presents information about multiple artificial intelligence models in a structured and visually appealing way. The system should guide users through different models their background , and their purpose using motion and smooth transitions.Additionally , the application must clearly reflect that it is designed and owned by Harshit Kumar, and this attribution should be visible in appropriate sections of the interface.You must ensure that the application remains responsive, accessible, and suitable for real-world usage while maintaining clean and maintainable code.
 
 ## Objective
-Develop a complete full-stack website that:
+#Develop a complete full-stack website that:
 
 1-Displays information about multiple AI models in a structured format
 
@@ -23,7 +23,7 @@ Develop a complete full-stack website that:
 
 ## UI and Animation Requirements
 
-Scroll-Based Experience:
+#Scroll-Based Experience:
 
 1-Implement animations that respond to scrolling behavior
 
@@ -36,7 +36,7 @@ Scroll-Based Experience:
   
   c-Layered movement effects
 
-Section Flow
+#Section Flow
 
 The interface must guide users through:
 
@@ -52,7 +52,7 @@ The interface must guide users through:
 
 Each section should transition smoothly to maintain continuity.
 
-Animation Guidelines:
+#Animation Guidelines:
 
 1-Use efficient rendering properties such as transform and opacity
 
@@ -66,7 +66,7 @@ Animation Guidelines:
 
 The website must include:
 
-Introduction Section
+#Introduction Section
 
 1-Brief explanation of the purpose of the website
 
@@ -76,65 +76,98 @@ Introduction Section
 
    "Designed and developed by Harshit Kumar"
 
-AI Models Overview Section:
+#AI Models Overview Section:
 
 1-Display multiple AI models in a grid or list
 
 2-Each model should be represented as a card
 
-Model Details Section:
+#Model Details Section:
+
 Each model must include:
+
 1-Model name
+
 2-Short description
+
 3-Primary use case
+
 4-Approximate release period
 
-Timeline Section:
+#Timeline Section:
+
 1-Show progression of models over time
+
 2-Organize models in chronological or grouped format
 
-Contact Section:
+#Contact Section:
+
 1-Include a “Get in Touch” button
+
 2-Provide access to a contact form
 
-Footer (Important Addition)
+#Footer (Important Addition)
+
 1-Must include:
-          "© Harshit Kumar — All rights reserved"
-          Optional: "AI Models Showcase Project"
+
+  "© Harshit Kumar — All rights reserved"
+  
+  Optional: "AI Models Showcase Project"
           
-Layout Constraints
+#Layout Constraints
+
 1-Must be responsive across devices
+
 2-Use proper semantic HTML
+
 3-Maintain consistent spacing and structure
+
 4-Ensure readability and clarity
 
-📩 Contact System Requirements
-Modal Interaction 
+## Contact System Requirements
+
+# Modal Interaction
+
 1-Clicking the “Get in Touch” button must:
-             Open a modal form
-             Include smooth open and close animations
+
+  Open a modal form
+   
+  Include smooth open and close animations
              
-Form Fields
+#Form Fields
+
 The form must include:
+
 1-Name (required)
+
 2-Email (required, validated)
+
 3-Phone Number (required, validated)
+
 4-Message (optional)
 
-Validation Rules
+#Validation Rules
+
 1-Required fields must be filled
+
 2-Email format must be valid
+
 3-Errors must be displayed clearly
+
 4-Submission must be prevented if validation fails
 
 ##Backend Requirements
+
 1-Create an API endpoint to handle form submissions
+
 2-Process and validate incoming data
+
 3-Store submissions in:
                 *Server logs
                 *Optional database
                 
-Email Notification:
+#Email Notification:
+
 1-Send a notification containing:
           *Name
           *Email
@@ -142,20 +175,27 @@ Email Notification:
           *Message
           *Timestamp
           *Include line: "Submission received via Harshit Kumar's AI Models Showcase website"
+          
 2-Use an email service such as SMTP or API-based solution
 
-Security Requirements:
+#Security Requirements:
+
 1-Use environment variables for sensitive data
+
 2-Implement basic protection against repeated submissions
 
 ##Data Processing Requirements
+
 1-Sanitize all inputs before processing
+
 2-Prevent:
        Cross-site scripting
        Injection attacks
+       
 3-Validate required fields properly
 
 #API Response Format
+
 Successful response:
              {  "success": true,  "message": "Submission successful"}
 
@@ -163,6 +203,7 @@ Error response:
              {  "success": false,  "error": "Invalid data"}
 
 ## Output Requirements
+
 1-The final system must include:
             *A website displaying multiple AI models
             *Structured model information
@@ -174,37 +215,61 @@ Error response:
             *Clear attribution to Harshit Kumar as designer/owner
 
 ## Error Handling and Documentation
-Error Handling:
-Show validation errors on the frontend
-Prevent invalid submissions
-Handle backend errors properly
-Return structured responses
-Log errors for debugging
 
-DocumentationProvide:
-Project structure
-Setup instructions
-Environment configuration
-Deployment steps
+Error Handling:
+
+1-Show validation errors on the frontend
+
+2-Prevent invalid submissions
+
+3-Handle backend errors properly
+
+4-Return structured responses
+
+5-Log errors for debugging
+
+#DocumentationProvide:
+
+1-Project structure
+
+2-Setup instructions
+
+3-Environment configuration
+
+4-Deployment steps
 
 ## Performance and Scalability
-Optimize loading and rendering
-Load components when required
-Ensure smooth animations across devices
-Handle multiple requests efficiently
 
-Accessibility
-Use semantic HTML
-Ensure keyboard navigation
-Maintain compatibility across browsers
+1-Optimize loading and rendering
+
+2-Load components when required
+
+3-Ensure smooth animations across devices
+
+4-Handle multiple requests efficiently
+
+#Accessibility
+
+1-Use semantic HTML
+
+2-Ensure keyboard navigation
+
+3-Maintain compatibility across browsers
 
 ## Technology Stack
+
 1-FrontendReact or Next.js
+
 2-Framer Motion
+
 3-Tailwind CSS or similar
 
-Backend
+#Backend
+
 1-Node.js with Express or API routes
+
 2-Email handling service
+
 3-dotenv for configuration
+
 4-OptionalMongoDB or PostgreSQL
